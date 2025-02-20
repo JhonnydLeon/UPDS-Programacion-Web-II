@@ -1,0 +1,26 @@
+<mat-card>
+    <span>Crear Nueva Cuenta</span>
+    <br />
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+      <!-- Campo para UserName -->
+      <mat-form-field class="form-field" appearance="fill">
+        <mat-label>UserName</mat-label>
+        <input matInput placeholder="Escribe tu nombre de usuario" formControlName="userName" />
+      </mat-form-field>
+  
+      <!-- Campo para Password -->
+      <mat-form-field class="form-field" appearance="fill">
+        <mat-label>Password</mat-label>
+        <input matInput placeholder="Escribe tu contraseña" type="password" formControlName="password" />
+      </mat-form-field>
+  
+      <!-- Botón Registrarse -->
+      <button
+        mat-raised-button
+        color="primary"
+        [disabled]="!registerForm.valid"
+        class="form-button">
+        Registrarse
+      </button>
+    </form>
+  </mat-card>

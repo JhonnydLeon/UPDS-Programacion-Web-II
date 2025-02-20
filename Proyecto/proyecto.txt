@@ -1,0 +1,74 @@
+--------------------
+PROYECTO
+--------------------
+para el proyecto lo que hicimos fue unir todo el proceso que se hizo en el backend, en forma de resumen lo que se
+hizo principalmente fue la parte de registro de clientes y usuarios para el login, entonces esto es todo lo que
+creamos en el proyecto backend
+
+BACKEND:
+
+	> carpeta - modelos
+		- Cliente.cs
+		- User
+		- carpeta Dto
+			- ClienteDto.cs
+			- UserDto
+	> carpeta - repositorio
+		- ClienteRepositorio.cs
+		- IClienteRepositorio.cs
+		- UserRepositorio.cs
+		- IUserRepositorio.cs
+
+	> Carpeta - Data
+		- PedidosDbContext.cs
+	
+	> carpeta - Controllers
+		- ClientesController.cs
+		- UsersController.cs
+
+	> carpeta Data
+		- PedidosDbContext.cs
+
+	> carpeta - Migrations
+		- 20250203110347_token.cs
+
+		- esa carpeta es para migrar todos nuestros modelos juntos con sus controladores
+		- comandos:
+			> Add-Migration AcaPonerElNombredelMigration
+			> remove-migration
+				este sirve para eliminar las migraciones hechas, lo recomiendo usar haber hechos otras 
+				anteriores
+
+	> archivo - appsettings.json
+		- aca esta la configuracion con la base de datos, junto mas abajo el token que se crean para los
+		usuarios
+
+	> archivo - program.cs
+
+
+
+en la parte del fronted lo hicimos en framework de angular, en ellas creamos diferntes typescript y carpetas de los
+diferentes modulos como el lognin, register, crear, editar, etc
+
+FRONTED:
+	
+	carpetas creadas
+	> actualizar-cliente
+	> clientes
+	> crear-cliente
+	> delete-cliente
+	> footer
+	> header
+	> interfaces
+	> login
+	> register
+	
+	archivos  creados
+	> auth.service.spec.ts
+	> auth.service.ts
+	> cliente.service.spec.ts
+	> cliente.service.ts
+
+
+
+

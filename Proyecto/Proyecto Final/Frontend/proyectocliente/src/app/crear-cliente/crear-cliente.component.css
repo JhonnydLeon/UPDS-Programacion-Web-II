@@ -1,0 +1,17 @@
+
+.crear-trabajador-form {
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+.crear-trabajador-field {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.crear-trabajador-btn{
+    position: relative;
+}

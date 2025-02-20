@@ -1,0 +1,43 @@
+<h2 mat-dialog-title>actualizar Trabajador</h2>
+
+<mat-dialog-content [formGroup]="form">
+
+    <mat-form-field class="crear-trabajador-field">
+        <input matInput placeholder="Nombres del Cliente" formControlName="nombres">
+    </mat-form-field>
+    <br/>
+    <mat-form-field class="crear-trabajador-field">
+        <input matInput placeholder="Apellidos del Cliente" formControlName="apellidos">
+    </mat-form-field>
+    <br/>
+
+    <mat-form-field class="crear-trabajador-field">
+        <mat-select placeholder="Género" formControlName="genero">
+          <mat-option value="Masculino">Masculino</mat-option>
+          <mat-option value="Femenino">Femenino</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <mat-form-field class="crear-trabajador-field">
+        <input matInput type="date" placeholder="Fecha de Nacimiento" formControlName="fecha_Nac">
+    </mat-form-field>
+
+    <mat-form-field class="crear-trabajador-field">
+        <input matInput placeholder="Celula de Identidad" formControlName="num_Doc">
+    </mat-form-field>
+
+    <mat-form-field class="crear-trabajador-field">
+        <input matInput placeholder="numero de telefono" formControlName="num_Cel">
+    </mat-form-field>
+
+    <mat-form-field class="crear-trabajador-field">
+        <input matInput placeholder="Email" formControlName="email">
+    </mat-form-field>
+
+</mat-dialog-content>
+  
+
+<mat-dialog-actions>
+    <button mat-raised-button (click)="cerrar()">Cerrar</button>
+    <button mat-raised-button color="primary" (click)="guardar()">Guardar</button>
+</mat-dialog-actions>

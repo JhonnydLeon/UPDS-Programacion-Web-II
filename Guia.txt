@@ -1,0 +1,366 @@
+
+--------------------
+CLASE 1
+--------------------
+puntos:
+- estudiar acerca de ASP.NET
+- razor pages
+
+MVC: https://www.netmentor.es/entrada/explicacion-mvc
+
+TUTORIAL ASP.NET:
+seguir los pasos del siguiente link
+> https://learn.microsoft.com/es-es/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-9.0&tabs=visual-studio
+
+
+
+
+
+--------------------
+CLASE 2
+--------------------
+
+
+AVANCE DE TUTORIAL ASP.NET
+
+- configurar conexion con la base de datos (se crea automaticamente BD)
+	> abrir el explorador de servidores
+- crear nueva conexion en el explorador de servidores
+	> elegir la primera vez la conexion sql server (3ra opcion) (solo aparece la primera vez)
+	> nombre del servidor: .
+	> confiar en el certificado de servidor (marcar)
+	> seleccionar base de datos: master
+		
+
+
+
+--------------------
+CLASE 3
+--------------------
+comandos utiles:
+- Remove-Migration
+- Add-Migration ActividadUltra
+- Update-Database
+
+
+me quede en paso 4 del tutorial
+
+
+
+CODIGO DE INDEX.CSHTML DE ARTICULO
+
+</td>
+    <td>
+        <!-- Aquí mostramos la imagen utilizando la URL de la propiedad ImagenUrl -->
+        <img src="@Url.Content(item.ImagenUrl)" alt="@item.Descripcion" width="100" />
+    </td>
+<td>
+
+SCRIPT PARA INSERTAR EN TABLA ARTICULO
+
+-- Inserta un nuevo artículo en la tabla Articulo
+INSERT INTO Articulo (CodBarra, Descripcion, ImagenUrl, IdCategoria, IdPresentacion)
+VALUES 
+    ('1122334455', 'Articulo 3', 'http://mywindowshub.com/wp-content/uploads/2013/01/user-account.jpg', 1, 1);
+
+
+
+
+
+--------------------
+CLASE 4
+--------------------
+ 
+
+el tema para agregar busqueda y filtrado comienza desde el capitulo adiccion de busqueda
+
+
+--------------------
+CLASE 5
+--------------------
+ puntos:
+- estudiar unidad 2 de plataforma
+- investigar API minimas
+
+
+
+
+
+
+- CREAR PROYECTO API
+
+> buscar: ASP.net core web API
+> Informacion adicional:
+	- Framework: .net 8
+	- authentication de campo: windows
+> lo demas lo dejamos igual
+> le damos CREAR
+
+
+
+> instalar paquetes
+
+	- Microsoft.Entity.Framework.Tools
+	- Microsoft.EntityFrameworkCore / version 8.0.12
+	- Microsoft.EntityFrameworkCore.SqlServer / version 8.0.12
+
+> carpeta controlador
+	- crear controlador CLIENTE
+		- click derecho en la carpeta controllers	
+		Agregar > controlador > comun (API) > Controlador de api con acciones que usan entity framework
+	
+		- clase de modelo: Cliente (APICliente.Modelos)
+		- clase Dbcontext: ApplicationDbContext (APICliente.Data)
+		- nombre de controlador: ClientesController
+
+
+
+
+--------------------
+CLASE 6
+--------------------
+
+
+AC2:
+
+> instalar paquetes
+	- AutoMapper
+	- AutoMapper.Extensions.Microsoft.DependencyInjection
+	- Microsoft.AspNetCore.Authentication.JwtBearer
+	- Microsoft.AspNetCore.Authentication.Negotiate
+	- Microsoft.VisualStudio.Web.CodeGeneration.Design
+	- Swashbuckle.AspNetCore
+	- Swashbuckle.AspNetCore.Annotations
+	- Swashbuckle.AspNetCore.SwaggerUI
+	- Microsoft.Entity.Framework.Tools
+	- Microsoft.EntityFrameworkCore / version 8.0.12
+	- Microsoft.EntityFrameworkCore.SqlServer / version 8.0.12
+
+
+
+
+--------------------
+CLASE 7
+--------------------
+apuntes:
+- investigar que es claim
+
+
+AC2:
+
+crear clase User
+	modelo > User.cs
+
+- crear UserRepostorio.cs
+	Repositorio > agregar > clase > UserRepostorio.cs
+
+- crear IUserRepostorio.cs
+	Repositorio > agregar > nuevo elemento > IUserRepostorio.cs
+
+- crear migration 20250121124307_agregarUsuarioDb.cs
+	Migrations > abrir la consola del administrador de paquetes
+	poner los comando:
+		- add-migration agregarUsuarioDb
+		- update-database
+
+
+
+
+
+--------------------
+CLASE 8
+--------------------
+apuntes:
+- 
+
+
+AC2:
+
+- crear clase UserDto.cs
+	Modelos > Dto > crear clase > UserDto.cs
+
+- crear 
+	Controllers > crear controlador > Api > 
+	Controlador de api: en blanco > UsersController.cs
+
+
+
+AC2:
+- descargar el paquete nuguet
+	- swashbuckle.aspnetcore.filters
+
+
+
+--------------------
+CLASE 9
+--------------------
+Comandos utiles
+- borrar angular y limpiar cache
+	> npm uninstall -g @angular/cli
+	> npm cache clean --force
+
+
+
+- crear directorio con sus componentes en angular
+	> ng generate component clientes
+
+PARTE FRONTED:
+- programas a utilizar
+	> Instalar visual code
+	> node.js version 23.6.1
+		- install: https://nodejs.org/es/download
+		- documentacion: https://github.com/Schniz/fnm#shell-setup
+- frameworks
+	> angular version 18.2
+		- npm install -g @angular/cli@18
+		- documentacion: https://v18.angular.dev/installation
+
+- verificar el nodejs y angular
+	> con el comando
+		- ng v
+
+- crear el proyecto angular
+	> ng new ClienteFrontend
+
+	> no saldra la pregunta de 'Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? no'
+	tal y como se ve hay que poner N de no
+
+	- dentro del archivo ejecutar los comando
+		> ng generate component clientes
+		> ng generate component header
+		> ng generate component footer
+	- crear el archivo
+		> D:\JL\AC\AC2\ClienteFrontend\src\app\app.module.ts
+		o sea el archivo app.module.ts
+	- crear service cliente
+		> ng generate service cliente
+
+- pagina para UI para angular
+	- https://material.angular.io/
+
+	- de la documentacion get stared de esa pagina hacer lo siguiente
+		- en la consola: ng add @angular/material
+
+	- crear carpeta src/app/crear-cliente
+		- ng g c crear-cliente
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------
+AA (ACTIVIDADES ACADÉMICAS)
+--------------------
+
+AA1: 
+> codigo: PAR (codigo primero)
+> pasos a seguir:
+
+	- CONEXION:
+	- al crear el controlador se crea la conexion pero si no copia el la conexion de los archivos
+	- appsettings.json y program.cs
+
+	- MODELS
+	- crear el modelo, tomar en cuenta que aca se determina para poder guardar en el navegador
+	- crear la carpeta Data y dentro un archivo context que con este se pasara la informacion para sql y asi
+	poder hacer la migraciones
+	- si todo salio bien sigue
+	- CONTROLLERS
+	- crear los controladores 
+		- click derecho en carpeta controllers > agregar > nuevo elemento con scanffold > 
+		Controlador de MVC con vistas que usan Entity Framework
+
+		- clase de modelo: aca agregar el modelo que creamos y que queremos ocupar
+		- clase dbContext: aca darle en el + y se abrira donde esta el nombre de nuestro archivo context
+		que es el que esta dentro de la carpeta data, ojo tambien si no aparece podemos escribirlo
+		y ya con eso se seleccionara solo la parte de PROVEEDOR DE BASE DE DATOS
+		- nombre de controlador: recomiendo ajustar el nombre ya que aveces lo cambia
+	- VISTAS
+	- la parte de las vista se crean solas al crear correctamente el controlador
+
+	luego de hacer todo esto sigue migrar a la base de datos
+
+	- MIGRACIONES
+	- Remove-Migration (recomiendo este comando en el caso de crear de nuevo la base de datos)
+	- Add-Migration ActividadUltra
+	- Update-Database
+
+
+AA4: solo va revisar el crud
+
+
+
+
+
+
+--------------------
+PÁGINAS DE UTILIDAD
+--------------------
+- https://allthings.how/how-to-open-clipboard-in-windows-11/
+
+- cl1p.net:
+	> info: esta pagina nos sirve para pasar el portapapeles de un equipo a otro 
+	> url: https://cl1p.net/
+- klipit.in
+
+
+- clipt de oneplus
+
+--------------------
+SOLUCIONES A ERRORES
+--------------------
+
+--------------------
+PROGRAMAS
+--------------------
+- visual studio 2022
+- sql server
+
+--------------------
+ESTRUCTURA
+--------------------
+[Programacion Web II]
+└── |
+    ├── AA (Actividades Académicas)
+    ├── AC (Actividades en Clase) [¡si hay!]
+    ├── VA (Valoraciones o Examenes) [¡si hay!]
+    ├── Imagenes (imagenes en general) [¡si hay!]
+    ├── Proyecto
+    │   ├── consigna (puede ser como imagen o pdf)
+    │   ├── Proyecto Final (para no chiparnos vamos a ponerlo en una carpeta)
+    │   ├── Imagenes (Archivos gráficos relacionados con el proyecto)
+    │   ├── Informe (Versiones finales y borradores del informe del proyecto) [¡si hay!]
+    │   ├── Versiones (Carpeta para guardar distintas versiones del proyecto)
+    │   ├── Empresa.txt (Información y consigna de la empresa ficticia proporcionada) [¡si hay!]
+    │   └── Proyecto.txt (Registro de avances, cambios y decisiones del proyecto)
+    ├── Material de Apoyo (Archivos de referencia como PDF, documentos, imágenes, etc.)
+    └── Guia.txt (Archivo de texto con un resumen de las actividades realizadas en la materia)
+
+
+
+NOTA: las lineas que tienen [¡si hay!] es porque puede que algunos materias no tengan esos archivos,
+¡ojo que igual puede que hayan otros mas!, pero lo mas seguro es que esas no tengan, en todo caso
+en el archivo Guia.txt al final dar un resumen de que cosas tiene como estructura.

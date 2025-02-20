@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC1\\APICliente\\APICliente\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|c:\\users\\pc\\documents\\universidad\\programacion web ii\\ac\\ac1\\apicliente\\apicliente\\migrations\\20250116030445_api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|solutionrelative:migrations\\20250116030445_api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|c:\\users\\pc\\documents\\universidad\\programacion web ii\\ac\\ac1\\apicliente\\apicliente\\migrations\\20250116030445_api.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|solutionrelative:migrations\\20250116030445_api.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|c:\\users\\pc\\documents\\universidad\\programacion web ii\\ac\\ac1\\apicliente\\apicliente\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|c:\\users\\pc\\documents\\universidad\\programacion web ii\\ac\\ac1\\apicliente\\apicliente\\modelos\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|solutionrelative:modelos\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|c:\\users\\pc\\documents\\universidad\\programacion web ii\\ac\\ac1\\apicliente\\apicliente\\apicliente.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|solutionrelative:apicliente.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|c:\\users\\pc\\documents\\universidad\\programacion web ii\\ac\\ac1\\apicliente\\apicliente\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|c:\\users\\pc\\documents\\universidad\\programacion web ii\\ac\\ac1\\apicliente\\apicliente\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|c:\\users\\pc\\documents\\universidad\\programacion web ii\\ac\\ac1\\apicliente\\apicliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250116030445_api.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC1\\APICliente\\APICliente\\Migrations\\20250116030445_api.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250116030445_api.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC1\\APICliente\\APICliente\\Migrations\\20250116030445_api.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250116030445_api.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T02:44:52.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250116030445_api.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC1\\APICliente\\APICliente\\Migrations\\20250116030445_api.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250116030445_api.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC1\\APICliente\\APICliente\\Migrations\\20250116030445_api.cs",
+              "RelativeToolTip": "Migrations\\20250116030445_api.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T03:04:45.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC1\\APICliente\\APICliente\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC1\\APICliente\\APICliente\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "Controllers\\ClientesController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T14:26:51.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC1\\APICliente\\APICliente\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC1\\APICliente\\APICliente\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T13:46:16.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC1\\APICliente\\APICliente\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC1\\APICliente\\APICliente\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T13:36:22.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC1\\APICliente\\APICliente\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC1\\APICliente\\APICliente\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-15T12:57:38.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC1\\APICliente\\APICliente\\Modelos\\Cliente.cs",
+              "RelativeDocumentMoniker": "Modelos\\Cliente.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC1\\APICliente\\APICliente\\Modelos\\Cliente.cs",
+              "RelativeToolTip": "Modelos\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:56:46.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "APICliente.csproj",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC1\\APICliente\\APICliente\\APICliente.csproj",
+              "RelativeDocumentMoniker": "APICliente.csproj",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC1\\APICliente\\APICliente\\APICliente.csproj",
+              "RelativeToolTip": "APICliente.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-15T12:54:58.661Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

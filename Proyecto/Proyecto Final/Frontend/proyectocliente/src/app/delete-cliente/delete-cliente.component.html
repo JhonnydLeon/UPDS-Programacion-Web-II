@@ -1,0 +1,47 @@
+<mat-card>
+
+    <mat-card-header>
+        <mat-card-title>Esta seguro de Eliminar este cliente ? </mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content>
+        <mat-list-item>
+            <b>Nombres: {{cliente.nombres}} </b>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item>
+            <b>Apellidos: {{cliente.apellidos}} </b>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        
+    
+        <mat-list-item>
+            <b>Género:</b> {{ cliente.genero }}
+        </mat-list-item>
+
+        <mat-divider></mat-divider>
+        <mat-list-item>
+            <b>Fecha de Nacimiento:</b> {{ cliente.fecha_Nac }}
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item>
+            <b>Celula de Identidad:</b> {{ cliente.num_Doc }}
+        </mat-list-item>
+        <mat-divider></mat-divider>
+
+        <mat-list-item>
+            <b>numero de telefono:</b> {{ cliente.num_Cel }}
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item>
+            <b>Email:</b> {{ cliente.email }}
+        </mat-list-item>
+
+    </mat-card-content>
+
+    <mat-card-actions>
+        <button mat-flat-button (click)="cancel()">Cancelar</button>
+        <button mat-raised-button color="warn" (click)="confirmar()">Confirmar</button>
+    </mat-card-actions>
+
+</mat-card>

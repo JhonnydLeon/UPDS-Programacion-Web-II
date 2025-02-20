@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC2\\APICliente\\APICliente\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|c:\\users\\pc\\documents\\universidad\\programacion web ii\\ac\\ac2\\apicliente\\apicliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|c:\\users\\pc\\documents\\universidad\\programacion web ii\\ac\\ac2\\apicliente\\apicliente\\repositorio\\userrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|solutionrelative:repositorio\\userrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|c:\\users\\pc\\documents\\universidad\\programacion web ii\\ac\\ac2\\apicliente\\apicliente\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|c:\\users\\pc\\documents\\universidad\\programacion web ii\\ac\\ac2\\apicliente\\apicliente\\repositorio\\iuserrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|solutionrelative:repositorio\\iuserrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|c:\\users\\pc\\documents\\universidad\\programacion web ii\\ac\\ac2\\apicliente\\apicliente\\migrations\\20250202215709_complete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF0EFFB-9746-4119-A65D-51470DAF3FE5}|APICliente.csproj|solutionrelative:migrations\\20250202215709_complete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC2\\APICliente\\APICliente\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC2\\APICliente\\APICliente\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAwDkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T03:27:01.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC2\\APICliente\\APICliente\\Repositorio\\UserRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\UserRepositorio.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC2\\APICliente\\APICliente\\Repositorio\\UserRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\UserRepositorio.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAcwIwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T03:22:00.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC2\\APICliente\\APICliente\\Repositorio\\IUserRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\IUserRepositorio.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC2\\APICliente\\APICliente\\Repositorio\\IUserRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\IUserRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T03:21:58.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250202215709_complete.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC2\\APICliente\\APICliente\\Migrations\\20250202215709_complete.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250202215709_complete.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC2\\APICliente\\APICliente\\Migrations\\20250202215709_complete.cs",
+              "RelativeToolTip": "Migrations\\20250202215709_complete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T02:32:43.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC2\\APICliente\\APICliente\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Universidad\\Programacion Web II\\AC\\AC2\\APICliente\\APICliente\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwBwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T01:31:38.567Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

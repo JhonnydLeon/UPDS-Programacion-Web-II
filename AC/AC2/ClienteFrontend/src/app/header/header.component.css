@@ -1,0 +1,13 @@
+.menu {
+    margin-left: auto; /* Empuja el menú hacia la derecha */
+  }
+  
+  .menu a {
+    margin-left: 16px; /* Espacio entre los enlaces */
+    text-decoration: none; /* Elimina el subrayado */
+    color: white; /* Color del texto */
+  }
+  
+  .menu a:hover {
+    text-decoration: underline; /* Subraya al pasar el mouse */
+  }

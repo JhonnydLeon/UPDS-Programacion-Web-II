@@ -1,0 +1,6 @@
+@PedidoDb_HostAddress = http://localhost:5187
+
+GET {{PedidoDb_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
