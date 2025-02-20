@@ -1,0 +1,24 @@
+# Archivos generados por Visual Studio
+*.user
+*.vspscc
+*.suo
+*.cache
+*.docstates
+
+# Carpeta bin y obj
+[Bb]in/
+[Oo]bj/
+
+# Archivos temporales
+*~
+
+# Dependencias NuGet
+packages/
+*.nupkg
+
+# Logs
+*.log
+
+# Archivos específicos de Heroku
+.DS_Store
+Thumbs.db
